@@ -57,9 +57,19 @@ h1 {
 }
 
 .value {
-  font-size: 10rem;
+  font-size: 9rem;
 }
 
+@media (max-width: 768px) {
+  .value {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 480px) {
+  .value {
+    font-size: 1.5rem;
+  }
+}
 .increase, .decrease, .reset {
   box-sizing: border-box;
   border-color: black;
