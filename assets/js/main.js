@@ -82,7 +82,7 @@ containerDiv.appendChild(containerButton);
 containerDiv.appendChild(containerDescription);
 containerDiv.appendChild(resetButton);
 
-// Aggiunta del contenitore principale al body
+// Ho aggiunto il contenitore principale al body
 backgroundDiv.appendChild(containerDiv);
 document.body.appendChild(backgroundDiv);
 
